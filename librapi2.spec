@@ -78,7 +78,7 @@ is available at this address:
 http://msdn.microsoft.com/library/default.asp?url=/library/en-us/wcesdkr/htm/_wcesdk_CeRapiInit.asp
 
 %prep
-%setup -q -n %{libname}-%{version}
+%setup -q -n librapi2-%{version}
 
 %build
 %configure2_5x --with-libsynce=%{_prefix}
