@@ -19,6 +19,7 @@ BuildRequires:	python-devel
 BuildRequires:	python-pyrex
 Conflicts:	synce < 0.9.3
 Obsoletes:	synce-%libname
+Obsoletes:	%{name}-%{major}
 
 %description
 Librapi is part of the SynCE project.
