@@ -62,7 +62,7 @@ Conflicts:	%{_lib}synce0-devel < 0.9.3
 Obsoletes:	%libname-devel < %libname-devel-%{version}
 
 %description -n %{develname}
-Librapi is part of the SynCE project:
+Librapi is part of the SynCE project.
 
 %prep
 %setup -q -n librapi2-%{version}
