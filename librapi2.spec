@@ -12,7 +12,7 @@ Release:	%{release}
 License:	MIT
 Group:		System/Libraries
 Source:		%{name}%{major}-%{version}.tar.bz2
-URL:		http://synce.sourceforge.net/
+URL:		https://synce.sourceforge.net/
 Buildroot:	%{_tmppath}/%name-root
 BuildRequires:	libsynce-devel = %{version}
 BuildRequires:	python-devel
